@@ -34,7 +34,7 @@ setTimeout(function(){
   alert("Vediamo un po'...Quanti dei numeri riesci a ricordare?! ");
   numbersWritten = writeNumbers();
   console.log(numbersWritten);
-}, 3000);
+}, 30000);
 
 /* [8,55,33,77,21].includes(77)
 /* Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati. 
@@ -43,11 +43,19 @@ fare check di quali numbersWritten[i] sono presenti in randomNumbers
 var numbersWritten;
 var randomNumbers; 
 */
-var score = [];
+// var score = [];
 
-if (randomNumbers.includes(numbersWritten[i]) ) {
-  score.push(numbersWritten[i]);
-  console.log(score);
-} else {
+// for (i = 0; i < randomNumbers.length; i++) {
+//   if (randomNumbers.includes(numbersWritten[i]) ) {
+//     score.push(numbersWritten[i]);
+//     console.log(score);
+//   } else {
+  
+//   }
+// }
 
-}
+
+// for ( i = 0 ; i < randomNumbers.length; i++) {
+//   if (numbersWritten[i] == randomNumbers[i])
+//     score.push(i);
+// } ;
